@@ -1,6 +1,6 @@
 {
   "name": "rdf-fetch",
-  "version": "0.3.3",
+  "version": "0.9.0",
   "description": "Uses Fetch to send and receive RDF-Ext Graphs over HTTP",
   "main": "index.js",
   "scripts": {
@@ -23,14 +23,14 @@
   },
   "homepage": "https://github.com/rdf-ext/rdf-fetch",
   "dependencies": {
-    "isomorphic-fetch": "^2.2.1",
-    "rdf-formats-common": "^0.3.0"
+    "rdf-fetch-lite": "git://github.com/rdf-ext/rdf-fetch-lite.git#develop",
+    "rdf-formats-common": "git://github.com/rdf-ext/rdf-formats-common.git#develop"
   },
   "devDependencies": {
-    "mocha": "^2.5.3",
-    "nock": "^8.0.0",
-    "rdf-ext": "^0.3.0",
-    "standard": "^7.1.2"
+    "mocha": "^3.2.0",
+    "nock": "^9.0.11",
+    "rdf-ext": "git://github.com/rdf-ext/rdf-ext.git#develop",
+    "standard": "^9.0.2"
   },
   "readmeFilename": "README.md"
 }

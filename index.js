@@ -1,5 +1,5 @@
-var formats = require('rdf-formats-common')()
-var rdfFetchLite = require('./lite')
+const formats = require('rdf-formats-common')()
+const rdfFetchLite = require('rdf-fetch-lite')
 
 function rdfFetch (url, options) {
   options = options || {}
