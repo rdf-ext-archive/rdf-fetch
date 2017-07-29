@@ -23,13 +23,13 @@
   },
   "homepage": "https://github.com/rdf-ext/rdf-fetch",
   "dependencies": {
-    "rdf-fetch-lite": "git://github.com/rdf-ext/rdf-fetch-lite.git#develop",
-    "rdf-formats-common": "git://github.com/rdf-ext/rdf-formats-common.git#develop"
+    "rdf-fetch-lite": "^1.0.0",
+    "rdf-formats-common": "^1.0.1"
   },
   "devDependencies": {
     "mocha": "^3.2.0",
     "nock": "^9.0.11",
-    "rdf-ext": "git://github.com/rdf-ext/rdf-ext.git#develop",
+    "rdf-ext": "^1.0.0",
     "standard": "^9.0.2"
   },
   "readmeFilename": "README.md"
